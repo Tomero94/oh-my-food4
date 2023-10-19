@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>ohmyfood - Le Gourmand</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Le délice des sens, création du site ohmyfood d'après les maquettes fournies pour le projet 3 OpenClassrooms">
+        <link rel="stylesheet" href="../styles/main.css" type="text/css">
+        <script src="https://kit.fontawesome.com/bf2091fcc8.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Shrikhand' rel='stylesheet'>
+
+    </head>
+    <body>
+        <header>
+            <a href="../index.html">
+                <i class="fas fa-arrow-left"></i><img src="../images/ohmyfood@2x.svg" alt="logo ohmyfood"/>
+            </a>
+        </header>
+
+        <div class="menuImg">
+            <img src="../images/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="Le délice des sens Folie-Méricourt">
+        </div>
+
+        <section class="restaurantsMenu">
+            <div class="titleMenu">
+                <h1>Le Gourmand</h1>
+                <i class="fas fa-heart"></i>
+            </div>
+
+            <div class="panelMenu">
+                <h2>Entrées</h2>
+                <div class="listMenu">
+                    <div class="checkItem checkItem--1">
+                        <div class="textItem">
+                            <h3>Tuna Carpaccio</h3>
+                            <div class="legendPrice">
+                                <p>Seasoned with yuzu</p>
+                                <p>25£</p>
+                            </div>
+                        </div>
+                        <div class="cursorCheck">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                    </div>
+                    <div class="checkItem checkItem--2">
+                        <div class="textItem">
+                            <h3>Crunchy lobster croquets</h3>
+                            <div class="legendPrice">
+                                <p>With seasoned vegetables</p>
+                                <p>35£</p>
+                            </div>
+                        </div>
+                        <div class="cursorCheck">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                    </div>
+                    <div class="checkItem checkItem--3">
+                        <div class="textItem">
+                            <h3>Mushroom soup </h3>
+                            <div class="legendPrice">
+                                <p>With truffes</p>
+                                <p>20£</p>
+                            </div>
+                        </div>
+                        <div class="cursorCheck">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                    </div>
+                </div><h2>MAINDISH</h2>
+                <div class="listMenu">
+                    <div class="checkItem checkItem--4">
+                        <div class="textItem">
+                            <h3>Roast Chicken with Provincal </h3>
+                            <div class="legendPrice">
+                                <p>With truffle cream</p>
+                                <p>40£</p>
+                            </div>
+                        </div>
+                        <div class="cursorCheck">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                    </div>
+                    <div class="checkItem checkItem--5">
+                        <div class="textItem">
+                            <h3>Roasted Lobster</h3>
+                            <div class="legendPrice">
+                                <p>With seasonal vegetables</p>
+                                <p>35£</p>
+                            </div>
+                        </div>
+                        <div class="cursorCheck">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                    </div>
+                    <div class="checkItem checkItem--6">
+                        <div class="textItem">
+                            <h3>Angust Beef Ribs </h3>
+                            <div class="legendPrice">
+                                <p>With mashed parshnips</p>
+                                <p>44£</p>
+                            </div>
+                        </div>
+                        <div class="cursorCheck">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                    </div>
+                </div><h2>Desserts</h2>
+                <div class="listMenu">
+                    <div class="checkItem checkItem--7">
+                        <div class="textItem">
+                            <h3>Assorted Dessert Plate</h3>
+                            <div class="legendPrice">
+                                <p>Chef choice</p>
+                                <p>18£</p>
+                            </div>
+                        </div>
+                        <div class="cursorCheck">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                    </div>
+                    <div class="checkItem checkItem--8">
+                        <div class="textItem">
+                            <h3>Crème brulée</h3>
+                            <div class="legendPrice">
+                                <p>Revisitd</p>
+                                <p>22£</p>
+                            </div>
+                        </div>
+                        <div class="cursorCheck">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                    </div>
+                    <div class="checkItem checkItem--9">
+                        <div class="textItem">
+                            <h3>Tiramisu</h3>
+                            <div class="legendPrice">
+                                <p>with hazelnuts</p>
+                                <p>23£</p>
+                            </div>
+                        </div>
+                        <div class="cursorCheck">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        
+                <div class="btnExploration">
+                    <button>Order</button>
+                </div>
+            
+        </section>
+
+        <footer>
+            <p><a href="index.html" class="footerLogo">ohmyfood</a></p>
+            <ul>
+                <li><a href=#><i class="fas fa-utensils"></i>   Suggest a restaurant</a></li>
+                <li><a href=#><i class="fas fa-hands-helping"></i>   Become a partner</a></li>
+                <li><a href=#>Legal</a></li>
+                <li><a href="mailto:contact@ohmyfood.fr">Contact</a></li>
+            </ul>
+        </footer>
+    </body>
+</html>
